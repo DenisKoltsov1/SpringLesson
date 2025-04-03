@@ -12,4 +12,10 @@
 
     </bean>
 
+
+    <bean id = "musicPlayer"
+          class="org.springframework.MusicPlayer">
+        <constructor-arg ref ="musicBean"/>
+
+    </bean>
 </beans>
