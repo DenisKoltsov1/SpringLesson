@@ -1,4 +1,4 @@
-package org.springframework;
+package ru.springframeworks;
 
 public interface Music {
     String getSong();
